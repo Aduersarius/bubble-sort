@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-	int a; string line, o;
+	unsigned int a; string line, o;
 
 	getline(cin, o);
 
@@ -20,7 +20,7 @@ int main() {
 
 	istringstream arr(line);
 
-	int *m = new int[a];
+	unsigned int *m = new unsigned int[a];
 
 	for (int i = 0; i < a; i++) {
 
